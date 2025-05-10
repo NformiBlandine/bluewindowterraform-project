@@ -44,7 +44,15 @@ Deployment Overview
 conclusion  
 •	Ensure Cloud SQL Auth proxy or private IP is configured correctly for Cloud Run access.  
 •	If using private Cloud SQL, enable the appropriate VPC connector.  
-•	Make sure your PHP app connects using environment variables from Terraform outputs.  
+•	Make sure your PHP app connects using environment variables from Terraform outputs.
 
+ Challenges
+ Configuring my visa card to enable my account and use the free tier.  
+ Understanding google cloud services  
+ Enabling resources   
+ Google IAM and permissions  
+ Naming of bucket  
+successfully building the ci pipeline using github action.  
+understanding Load balancser , NEG and cloudrun and how to intergrtae them  
 
  
