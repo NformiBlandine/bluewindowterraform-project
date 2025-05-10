@@ -1,0 +1,25 @@
+name: Laravel
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  laravel-tests:
+
+    runs-on: ubuntu-latest
+
+    steps:
+   
+    # Step 1: Checkout code from repository
+    - name: Checkout code
+      uses: actions/checkout@v2 
+    - name: Build Docker image
+      run: |
+        docker build -t demo ./php
+        docker tag demo gcr.io/bluewindow/demo
+    - name: Push Docker image to GCR
+      run: |
+        docker push gcr.io/bluewindow/demo 

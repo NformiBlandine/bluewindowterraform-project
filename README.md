@@ -1,1 +1,0 @@
-# bluewindowterraform-project
