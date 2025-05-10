@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  app:
+    build:
+      dockerfile: ./php/Dockerfile
+
+    volumes:
+      - ./app:/app
+
+  web:
+    image: nginx:latest
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx/conf.d/default.conf:/etc/nginx/conf.d/default.conf
