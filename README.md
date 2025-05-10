@@ -5,11 +5,12 @@
 
 Deploy a 3-Tier PHP App on GCP with Terraform
 This Terraform configuration deploys a three-tier PHP web application architecture using:
-•	🌀 Cloud Load Balancer
-•	🐳 Cloud Run (for containerized PHP app)
-•	💾 Cloud SQL (MySQL/PostgreSQL)
-•	🗂️ Cloud Storage (for static assets)
-.
+• Cloud Load Balancer
+• Cloud Run (for containerized PHP app)
+•	Cloud SQL (MySQL/PostgreSQL)
+•	Cloud Storage (for static assets)
+/n
+/n
 Project structure
 ├── main.tf
 ├── variables.tf
