@@ -1,6 +1,6 @@
 # bluewindowterraform-project
 
-![Architecture Diagram](bluewindowterraform-project/architecture.png)
+![Architecture Diagram](architecture.png)
 
 
 Deploy a 3-Tier PHP App on GCP with Terraform
